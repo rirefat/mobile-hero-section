@@ -51,8 +51,20 @@ nav {
     height: 1000px;
     position: absolute;
     top: 50%;
-    left: 0;
+    left: -10%;
     transform: translateY(-50%);
+}
+
+.overlay{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top: 500px solid #ffffff;
+    border-right: 500px solid #ffffff00;
+    border-bottom: 500px solid rgb(255, 255, 255);
+    border-left: 500px solid rgb(255, 255, 255);
 }
 
 .mobile{
@@ -101,16 +113,19 @@ nav {
 .two{
     top: 150px;
     right: 350px;
+    transform: rotate(-90deg);
 }
 
 .three{
     bottom: 450px;
     left: 50px;
+    transform: rotate(180deg);
 }
 
 .four{
     bottom: 150px;
     right: 350px;
+    transform: rotate(90deg);
 }
 
 .controls{
